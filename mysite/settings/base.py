@@ -32,6 +32,7 @@ INSTALLED_APPS = [
     'sitesettings',
     'blog',
     'menus',
+    'contact',
 
     'wagtail.contrib.forms',
     'wagtail.contrib.redirects',
@@ -58,6 +59,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sitemaps',
+
+    'captcha',
+    'wagtailcaptcha',
 ]
 
 MIDDLEWARE = [
@@ -181,3 +185,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # custom user model
 
 AUTH_USER_MODEL = 'userauth.CustomUser'
+
