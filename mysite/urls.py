@@ -10,7 +10,7 @@ from search import views as search_views
 
 import debug_toolbar
 from django.conf import settings
-from django.urls import include, path
+
 
 
 urlpatterns = [
@@ -25,6 +25,9 @@ urlpatterns = [
 
     path('__debug__/', include(debug_toolbar.urls)),
 
+    path('accounts/', include('allauth.urls')),
+
+    path('accounts/', include('userauth.urls')),
 ]
 
 

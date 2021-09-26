@@ -1,0 +1,18 @@
+@font-face {
+    font-family: 'anjalioldlipiregular';
+    src: url('anjalioldlipi-webfont.woff2') format('woff2'),
+         url('anjalioldlipi-webfont.woff') format('woff'),
+         url('../fonts/anjalioldlipi/AnjaliOldLipi-Regular.woff') format('truetype'),
+         url('../fonts/anjalioldlipi/AnjaliOldLipi-Regular.woff2') format('truetype'),
+         url('../fonts/anjalioldlipi/AnjaliOldLipi-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+ 
+body {  
+  font-family: 'anjalioldlipiregular'; 
+  line-height: 1.4;
+  font-weight:normal;
+   font-style:normal;
+}

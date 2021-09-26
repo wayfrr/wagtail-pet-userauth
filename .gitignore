@@ -7,8 +7,6 @@ __pycache__/
 # SQLite file, if not used
 db.sqlite3
 
-
-
 # Environment files and directories
 env/
 .env
