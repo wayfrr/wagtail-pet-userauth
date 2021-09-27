@@ -82,3 +82,6 @@
 
 {% endblock %}
 
+{% block card-footer %}
+    <a href="{% url 'account_update' request.user.pk %}">Update your account</a>
+{% endblock %}
